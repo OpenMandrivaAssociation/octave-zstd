@@ -13,7 +13,6 @@ Source0:	https://github.com/CNOCTAVE/octave_zstd/releases/download/%{version}/oc
 BuildRequires:	octave-devel >= 8.0.0
 BuildRequires:	octave-tar >= 1.0.1
 BuildRequires:	pkgconfig(libzstd)
-BuildRequires:	libzstd-static-devel
 
 Requires:	octave(api) = %{octave_api}
 Requires:	octave-tar >= 1.0.1
